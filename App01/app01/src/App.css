@@ -1,0 +1,42 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 4em;
+
+}
+
+div.bloco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40vw;
+  padding: 20px;
+  border: 1px solid black;
+  margin: 20px 0px;
+  border-radius: 10px;
+  background-color: rgba(211, 211, 211, 0.529);
+  box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.297);
+}
+
+div.bloco button {
+  width: 50%;
+  margin: 7px;
+}
+
+div.bloco input {
+  padding: 7px;
+  border-radius: 5px;
+  width: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.655);
+
+}
+
+div.bloco select {
+  margin-top: 20px;
+
+}
