@@ -12,7 +12,8 @@ export default function Caixa(props) {
                 </h2>
                 <p>{props.text}</p>
             </section>
-
+  
+  
             {/* SVG */}
             {props.children}
 

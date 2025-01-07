@@ -150,11 +150,11 @@ export default function App() {
     alert(Globais.texto)
   }
 
-  const array_num = [1,2,3,4,5,6,7,8,9,0]
+  const array_num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
 
   const percorrerArrayNum = () => {
     const lista = array_num.map(
-      (valor, indice)=>(
+      (valor, indice) => (
         <li key={indice.toString()}>{valor}</li>
       )
     )
@@ -170,6 +170,7 @@ export default function App() {
       />
 
       <div className="bloco">
+        <h2>Utilizando o atributo key</h2>
         <ul>
           {percorrerArrayNum()}
         </ul>
